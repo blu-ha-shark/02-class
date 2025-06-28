@@ -1,0 +1,22 @@
+ps:中文為內容
+
+網站設定
+<title>標題</title>
+<meta name="name" content="說明此網站是什麼" />
+<link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="網站圖標圖片位址"
+/>
+
+排版：
+<h1>章節</h1>
+<div class="name用於CSS樣式名稱">區塊標籤</div>
+<span class="name">行內標籤</span>
+
+<strong class="first-name">重要強調</strong>
+<em class="last-name">強調</em>
+
+表單from：
+
+input：
