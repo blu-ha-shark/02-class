@@ -1,0 +1,40 @@
+<!-- 1. 只要在父層級底下就算數
+2. 使用 `空白` 表示 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS 後代選擇器</title>
+        <link rel="stylesheet" href="002reset_css.css" />
+        <style>
+            .parent .child {
+                color: red;
+                background-color: yellow;
+            }
+
+            .parent .other {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">child</div>
+            <div class="other">other</div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div class="child">child more</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

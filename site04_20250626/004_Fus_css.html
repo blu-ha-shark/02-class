@@ -1,0 +1,26 @@
+<!-- 只要頁面上有對應的標籤，就會被套用 -->
+<!-- 影響範圍廣泛，不建議使用 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS tag</title>
+        <link rel="stylesheet" href="002reset_css.css" />
+        <style>
+            div {
+                background-color: red;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Some text div</div>
+        <p>Some text p</p>
+        <p>
+            <span>123</span>
+            <div style="background-color: blue;">456</div>
+        </p>
+    </body>
+</html>
